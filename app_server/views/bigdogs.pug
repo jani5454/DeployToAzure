@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= 'Here be big puppers, take a look.'
+    ul
+     each bigdog in bigdogs
+        li= bigdog.dog + ' ' + bigdog.name
+
+    p There will be pictures here.
