@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1= 'These are the rules and Terms of Service, take a look.'
+    ul
+     each rule in rules
+        li= rule.number + ': ' + rule.term

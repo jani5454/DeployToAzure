@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= 'Here be pugs, take a look.'
+    ul
+     each pugdog in pugs
+        li= pugdog.dog + ' ' + pugdog.name
+
+    p There will be pictures here
